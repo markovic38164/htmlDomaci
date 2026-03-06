@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.box2 {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(slike/f1.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.p {
+	color: hsl(0, 0%, 100%);
+	font-size: 2rem;
+	font-weight: bolder;
+	text-shadow: 5px 5px 2px black;
+}
+.box {
+	background-color: rgb(0, 0, 0, 0.5);
+	height: 100vh;
+}
+.buy {
+	font-size: 2rem;
+	margin: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+a {
+	margin: 15px;
+	padding: 12px 24px;
+	background: rgb(216, 152, 32);
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 15px 0;
+}
+button {
+	margin: 15px;
+	padding: 10px 20px;
+	background-color: black;
+	color: white;
+}
