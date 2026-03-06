@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	display: flex;
+	background-color: black;
+	gap: 20px;
+	justify-content: center;
+	height: 50px;
+	align-items: center;
+}
+li {
+	list-style-type: none;
+}
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+img {
+	width: 200px;
+}
+main {
+	height: calc(100vh - 50px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	align-items: center;
+}
+
+button {
+	padding: 10px;
+	width: 150px;
+	background-color: black;
+	color: white;
+}
