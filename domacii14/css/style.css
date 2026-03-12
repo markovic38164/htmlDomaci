@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 1.2rem;
+	font-family: sans-serif;
+}
+
+th,
+td {
+	padding: 20px;
+	text-align: left;
+}
+
+thead {
+	background-color: black;
+	color: white;
+
+	font-weight: 900;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: rgb(173, 166, 166);
+}
+
+@media (max-width: 640px) {
+	th,
+	td {
+		text-align: center;
+	}
+}
