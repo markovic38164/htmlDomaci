@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Forma</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<form>
+			<label for="ime">Ime:</label>
+			<input
+				type="text"
+				id="ime"
+				name="ime"
+				required
+				placeholder="Unesite vaše ime"
+			/>
+
+			<label for="adresa">Adresa:</label>
+			<input
+				type="text"
+				id="adresa"
+				name="adresa"
+				required
+				placeholder="Unesite vašu adresu"
+			/>
+
+			<label for="email">Email:</label>
+			<input
+				type="email"
+				id="email"
+				name="email"
+				required
+				placeholder="Unesite vaš email"
+			/>
+
+			<label for="grad">Odaberite grad:</label>
+			<select name="grad" id="grad" required>
+				<option value="" disabled selected>Izaberite grad</option>
+				<option value="beograd">Beograd</option>
+				<option value="uzice">Užice</option>
+				<option value="arilje">Arilje</option>
+				<option value="novi-sad">Novi Sad</option>
+			</select>
+
+			<label>Odaberite način plaćanja:</label>
+
+			<div class="radio">
+				<div>
+					<input
+						type="radio"
+						name="placanje"
+						value="karticom"
+						id="karticom"
+						required
+					/>
+					<label for="karticom">Kreditnom karticom</label>
+				</div>
+
+				<div>
+					<input type="radio" name="placanje" value="pouzecem" id="pouzecem" />
+					<label for="pouzecem">Pouzećem</label>
+				</div>
+			</div>
+
+			<div>
+				<input type="checkbox" id="mejl" name="mejl" />
+				<label for="mejl">Želim da primam mejlove sa ponudama</label>
+			</div>
+
+			<button type="submit">Pošalji mejl</button>
+		</form>
+	</body>
+</html>
