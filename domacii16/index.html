@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bootstrap 5</title>
+		<link rel="stylesheet" href="bootstrap5/bootstrap.min.css" />
+		<script src="bootstrap5/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<section class="container col-6 vh-100 d-flex flex-column p-0 my-3">
+			<div
+				class="bg-dark text-light d-flex flex-column justify-content-center align-items-center flex-fill"
+			>
+				<h1>Highly experienced web developer</h1>
+				<button
+					type="button"
+					class="btn btn-primary"
+					data-bs-toggle="modal"
+					data-bs-target="#exampleModal"
+				>
+					About me
+				</button>
+			</div>
+
+			<div class="d-flex flex-wrap flex-fill">
+				<div
+					class="bg-info w-50 h-100 d-flex flex-column justify-content-center align-items-center fs-4"
+				>
+					HTML/CSS
+				</div>
+				<div
+					class="bg-primary w-50 h-100 d-flex flex-column justify-content-center align-items-center fs-4"
+				>
+					JAVASCRIPT
+				</div>
+			</div>
+
+			<div
+				class="bg-dark d-flex justify-content-center align-items-center text-light flex-fill"
+			>
+				<h2>PHP</h2>
+			</div>
+		</section>
+		<footer
+			class="bg-dark d-flex justify-content-center align-items-center text-light p-3"
+		>
+			<p class="m-0">Copyright &copy; Moj sajt 2000-2100</p>
+		</footer>
+
+		<div
+			class="modal fade"
+			id="exampleModal"
+			tabindex="-1"
+			aria-labelledby="exampleModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Pozdrav!</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+						eligendi tempore ullam aliquam suscipit provident incidunt in
+						reprehenderit fugiat saepe illo, animi, ducimus quaerat? Ab animi
+						beatae pariatur rem enim?
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-primary"
+							data-bs-dismiss="modal"
+						>
+							Ok :&#41;
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
